@@ -1,0 +1,27 @@
+.custom-background1 {
+  background-image: linear-gradient(90deg, rgba(9, 31, 41, 0) 20.18%, rgba(9, 20, 41, 0.475) 50%, rgba(9, 24, 41, 0) 79.5%);
+}
+
+.custom-background {
+  background-image:
+    linear-gradient(151.23deg, rgba(7, 131, 171, 0.581) 0%, rgba(11, 136, 147, 0.7) 52.5%, rgba(13, 147, 160, 0.525) 100%),
+    linear-gradient(327.39deg, rgba(51, 68, 153, 0) 46.83%, rgba(51, 68, 153, 0.2) 92.64%);
+  background-origin: border-box;
+  background-clip: border-box;
+}
+
+.coloring {
+  background: linear-gradient(151.23deg, rgba(7, 131, 171, 0.249) 0%, rgba(11, 136, 147, 0.3) 52.5%, rgba(13, 147, 160, 0.225) 100%);
+
+}
+
+.divcolor {
+  background-image: linear-gradient(135deg, #0783AB 0%, #0B8893 70%, #0D93A0 100%);
+}
+
+/* .Bordering {
+  border: 1px solid;
+  border-image-source: linear-gradient(148.82deg, rgba(192, 247, 255, 0.2) 14.01%, rgba(192, 247, 255, 0) 27.71%, rgba(192, 247, 255, 0.2) 41.77%, rgba(192, 247, 255, 0.18) 52.22%, rgba(192, 247, 255, 0) 71.33%, rgba(192, 247, 255, 0.2) 86.11%);
+  border-image-slice: 1;
+
+} */
