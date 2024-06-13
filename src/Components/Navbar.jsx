@@ -5,7 +5,7 @@ import '../App.css'
 export default function Navbar() {
     return (
         <>
-            <div className='px-4 flex justify-between items-center h-[40px] .custom-background1'>
+            <div className='px-4 flex justify-between items-center h-[40px] .custom-background1 shadow-2xl border border-[#273c3f]'>
                 {/* Home icon */}
                 <div className='flex justify-center items-center font-medium'>
                     <div className='flex justify-center items-center'>
