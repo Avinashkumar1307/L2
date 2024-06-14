@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import Circle from './Circle'
 import '../App.css'
-import cloud from '../assets/cloud.svg';
+
 import arrow from '../assets/arrow.svg';
 export default function MainSection() {
     const [open, setOpen] = useState(false);
@@ -10,84 +10,81 @@ export default function MainSection() {
     }
     return (
         <>
-            <div style={{ backgroundImage: `url(${cloud})` }}
-                className="bg-cover w-full h-[520px] relative flex justify-between items-center px-4 text-white overflow-hidden"
-            >
-                <div className='absolute right-[225px] top-[80px] z-30'>
+            <div className="bg-cover w-[2400px] h-[828px] relative flex justify-between items-center  text-white overflow-hidden">
+                <div className='absolute left-[1873px] top-[54px] z-30'>
                     <Circle value="Global Benchmarks" />
                 </div>
-                <div className='absolute right-[190px] top-[220px] z-30'>
+                <div className='absolute left-[1927px] top-[292px] '>
                     <Circle value="Scenario Modelling" />
                 </div>
-                <div className='absolute right-[235px] bottom-[45px] z-30'>
+                <div className='absolute left-[1871px] top-[645px] -'>
                     <Circle value="Healthcare Metrics" />
                 </div>
-                <div className='absolute left-[225px] top-[80px] z-30'>
+                <div className='absolute left-[389px] top-[54px] '>
                     <Circle value="Chairman" />
                 </div>
-
-                <div className='absolute left-[235px] bottom-[45px] z-30'>
+                <div className='absolute left-[1749px] top-[452px] '>
+                    <Circle value='Strategic Coverage' />
+                </div>
+                <div className='absolute left-[534px] top-[292px] '>
+                    <Circle value="ADEO" />
+                </div>
+                <div className='absolute left-[379px] top-[572px] '>
                     <Circle value="Director General" />
                 </div>
-                <div className='text-[#FFFFFF] text-[13px] font-medium'>
+                <div className='absolute left-[780px] top-[613px]'>
+                    <Circle value="PMO" />
+                </div>
+                <div className='text-[#FFFFFF] ml-[40px] text-[20px] leading-[24px] font-medium'>
                     Explore by<br />Persona
                 </div>
-                <div className='absolute flex items-center w-[300px] h-[40px] top-5 left-3'>
-                    <div className='w-[40px] h-[40px] rounded-full custom-background flex justify-center items-center '>
-                        <img src={arrow} alt='Arrow' />
+                <div className='absolute flex items-center w-[366px] h-[60px] top-[16px] left-[24px]'>
+                    <div className='w-[60px] h-[60px] rounded-full custom-background flex justify-center items-center '>
+                        <img src={arrow} alt='Arrow' className='w-[6px] h-[12px]' />
                     </div>
-                    <div className='ml-2 text-[14px]'>Analyse</div>
+                    <div className='ml-[20px] w-[266px]  text-[20px] leading-[30px]'>Analyse</div>
                 </div>
+                <div className='w-[1585.9px] h-[1587.44px] border border-[#273c3f] rounded-full flex justify-center items-center  z-20'>
 
-                <div className='w-[845px] h-[845px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative Bordering'>
-                    <div className='absolute right-[110px] bottom-[320px] z-30'>
-                        <Circle value='Strategic Coverage' />
-                    </div>
-                    <div className='absolute left-[45px] top-[400px] z-30'>
-                        <Circle value="ADEO" />
-                    </div>
-                    <div className='w-[690px] h-[690px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative'>
-                        <div className='absolute left-[115px] bottom-[120px] z-30'>
-                            <Circle value="PMO " />
-                        </div>
-                        <div className='w-[550px] h-[550px] border border-[#273c3f]  rounded-full flex justify-center  overflow-hidden'>
-                            <div className='flex flex-col items-center mt-[9rem]'>
-                                <div className='text-[40px]'>Analytics Explorer</div>
-                                <div className='mt-3 bg-[#0783AB] divcolor rounded-3xl'>
-                                    <div class="relative flex items-center h-9 w-[386px]  focus-within:shadow-lg overflow-hidden  rounded-3xl">
-                                        <div class="grid place-items-center h-full w-12  text-white ">
-                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M9.58332 17.5C13.9556 17.5 17.5 13.9556 17.5 9.58332C17.5 5.21107 13.9556 1.66666 9.58332 1.66666C5.21107 1.66666 1.66666 5.21107 1.66666 9.58332C1.66666 13.9556 5.21107 17.5 9.58332 17.5Z" stroke="#667085" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6" />
-                                                <path d="M18.3333 18.3333L16.6667 16.6667" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
-                                            </svg>
+                    <div className='w-[1234.16px] h-[1235.71px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative'>
 
+                        <div className='w-[910.35px] h-[910.35px] border border-[#273c3f]  rounded-full flex justify-center items-center  overflow-hidden'>
+                            <div className='flex flex-col items-center  w-[593px] h-[515px]  '>
+                                <div className='text-[72px] leading-[80px]'>Analytics Explorer</div>
+                                <div className='w-full h-full  flex justify-center items-center '>
+                                    <div className='w-[540px] h-[329px] p-[12px] pr-[14px] pb-[12px] pl-[6px]  rounded-[40px] bgofinputes'>
+                                        <div class=" flex items-center h-[48px] w-full  focus-within:shadow-lg overflow-hidden  rounded-3xl">
+                                            <div class="grid place-items-center h-full w-12 ">
+                                                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <path d="M11.5 19C15.9182 19 19.5 15.4183 19.5 11C19.5 6.58172 15.9182 3 11.5 3C7.08169 3 3.49997 6.58172 3.49997 11C3.49997 15.4183 7.08169 19 11.5 19Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                    <path d="M21.4999 21L17.1499 16.65" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                                </svg>
+                                            </div>
+                                            <input
+                                                class=" h-full w-full outline-none text-sm py-[8px] bg-transparent caret-white"
+                                                type="text"
+                                                id="search"
+                                                onClick={menuHandler}
+                                            />
                                         </div>
-
-                                        <input
-                                            class="peer h-full w-full outline-none text-sm text-gray-700 pr-2 divcolor caret-white"
-                                            type="text"
-                                            id="search"
-
-                                            onClick={menuHandler}
-                                        />
+                                        <div className='w-[520px] h-[247px] flex flex-col rounded-3xl pl-5 coloring mt-2 justify-around'>
+                                            <div className='text-[18px]'>Global Benchmarks </div>
+                                            <div className='text-[18px]'>Future needs of patients</div>
+                                            <div className='text-[18px]'>Cross governmental collaboration</div>
+                                            <div className='text-[18px]'>Strategic coverage</div>
+                                            <div className='text-[18px]'>Obesity</div>
+                                        </div>
                                     </div>
-                                    {open && <div className='flex flex-col gap-2 py-3 rounded-3xl pl-5 coloring'>
-                                        <div className='text-[14px]'>Global Benchmarks </div>
-                                        <div className='text-[14px]'>Future needs of patients</div>
-                                        <div className='text-[14px]'>Cross governmental collaboration</div>
-                                        <div className='text-[14px]'>Strategic coverage</div>
-                                        <div className='text-[14px]'>Obesity</div>
-                                    </div>}
                                 </div>
+                                <div className='text-[18px] w-[428px]'>Obesity</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='text-[#FFFFFF] text-[13px] font-medium'>
+                <div className='text-[#FFFFFF] mr-[40px] text-[20px] leading-[24px] font-medium'>
                     Explore by<br />Theme
                 </div>
             </div>
         </>
-
     )
 }
