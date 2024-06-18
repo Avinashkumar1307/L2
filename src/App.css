@@ -20,7 +20,7 @@
 }
 
 .bgofinputes {
-  background: linear-gradient(151.23deg, rgba(7, 131, 171, 0.581) 0%, rgba(11, 136, 147, 0.7) 52.5%, rgba(13, 147, 160, 0.525) 100%);
+  background: linear-gradient(151.23deg, rgba(7, 131, 171, 0.249) 0%, rgba(11, 136, 147, 0.3) 52.5%, rgba(13, 147, 160, 0.225) 100%);
 
 }
 
@@ -34,8 +34,7 @@
 
 }
 
-.bgcoloring {
-  background: linear-gradient(97.87deg, rgba(2, 43, 61, 0.5) 16.1%, rgba(4, 32, 37, 0.5) 90.86%);
+.bgcoloring {background: linear-gradient(97.87deg, rgba(2, 43, 61, 0.5) 16.1%, rgba(4, 32, 37, 0.5) 90.86%);
 
 }
 
