@@ -14,25 +14,25 @@ export default function MainSection() {
                 <div className='absolute left-[1873px] top-[54px] z-30'>
                     <Circle value="Global Benchmarks" />
                 </div>
-                <div className='absolute left-[1927px] top-[292px] '>
+                <div className='absolute left-[1927px] top-[292px] z-30'>
                     <Circle value="Scenario Modelling" />
                 </div>
-                <div className='absolute left-[1871px] top-[645px] -'>
+                <div className='absolute left-[1871px] top-[645px] z-30'>
                     <Circle value="Healthcare Metrics" />
                 </div>
-                <div className='absolute left-[389px] top-[54px] '>
+                <div className='absolute left-[389px] top-[54px] z-30'>
                     <Circle value="Chairman" />
                 </div>
-                <div className='absolute left-[1749px] top-[452px] '>
+                <div className='absolute left-[1749px] top-[452px] z-30'>
                     <Circle value='Strategic Coverage' />
                 </div>
-                <div className='absolute left-[534px] top-[292px] '>
+                <div className='absolute left-[534px] top-[292px] z-30'>
                     <Circle value="ADEO" />
                 </div>
-                <div className='absolute left-[379px] top-[572px] '>
+                <div className='absolute left-[379px] top-[572px] z-30'>
                     <Circle value="Director General" />
                 </div>
-                <div className='absolute left-[780px] top-[613px]'>
+                <div className='absolute left-[780px] top-[613px] z-30'>
                     <Circle value="PMO" />
                 </div>
                 <div className='text-[#FFFFFF] ml-[40px] text-[20px] leading-[24px] font-medium'>
