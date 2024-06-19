@@ -13,7 +13,7 @@ export default function Navbar() {
                         <div className='flex justify-center items-center'>
                             <img src={home} alt='Home' className='w-[24px] h-[24px]' />
                         </div>
-                        <div className='ml-1 text-white text-[18px]'>HOME</div>
+                        <div className='ml-3 pt-2 text-center text-white text-[18px]'>HOME</div>
                     </div>
 
                     {/* Menu options */}
@@ -41,7 +41,7 @@ export default function Navbar() {
                         <div className='flex justify-center items-center'>
                             <img src={Chat} alt='Home' className='w-[24px] h-[24px]' />
                         </div>
-                        <div className='ml-1 text-white text-[18px]'>CHAT</div>
+                        <div className='ml-3 pt-2 text-center text-white text-[18px]'>CHAT</div>
                     </div>
                 </div>
                 {/*  */}
