@@ -44,11 +44,11 @@ export default function MainSection() {
                     </div>
                     <div className='ml-[20px] w-[266px]  text-[20px] leading-[30px]'>Analyse</div>
                 </div>
-                <div className='w-[1585.9px] h-[1587.44px] border border-[#273c3f] rounded-full flex justify-center items-center z-20 border-opacity-50'>
+                <div className='w-[1585.9px] h-[1587.44px] border border-[#273c3f] rounded-full flex justify-center items-center z-20 '>
 
-                    <div className='w-[1234.16px] h-[1235.71px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative border-opacity-50'>
+                    <div className='w-[1234.16px] h-[1235.71px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative '>
 
-                        <div className='w-[910.35px] h-[910.35px] border border-[#273c3f]  rounded-full flex justify-center items-center border-opacity-50  overflow-hidden'>
+                        <div className='w-[910.35px] h-[910.35px] border border-[#273c3f]  rounded-full flex justify-center items-center  overflow-hidden'>
                             <div className='flex flex-col items-center  w-[593px] h-[515px]  '>
                                 <div className='text-[72px] leading-[80px]'>Analytics Explorer</div>
                                 <div className='w-full h-full  flex justify-center items-center '>
