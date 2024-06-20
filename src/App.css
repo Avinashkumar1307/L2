@@ -36,8 +36,6 @@
 
 .bgcoloring {
   background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
-  /* background: linear-gradient(97.87deg, rgba(2, 43, 61, 0.5) 16.1%, rgba(4, 32, 37, 0.5) 90.86%); */
-
   box-shadow: 0px 9px 34px 0px #00000000;
 }
 
@@ -47,9 +45,426 @@
 }
 
 .bordercoloring {
-  
+
   border: 1.1px solid;
   border-image-source: linear-gradient(148.82deg, rgba(192, 247, 255, 0.2) 14.01%, rgba(192, 247, 255, 0) 27.71%, rgba(192, 247, 255, 0.2) 41.77%, rgba(192, 247, 255, 0.18) 52.22%, rgba(192, 247, 255, 0) 71.33%, rgba(192, 247, 255, 0.2) 86.11%);
   border-image-slice: 1;
   border-radius: 500px;
+}
+
+
+
+/* Animation on Chairman */
+@keyframes chairman {
+  0% {
+    left: 0px;
+    top: 0px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 94.75px;
+    top: 13.5px;
+    opacity: 0.1;
+  }
+
+  50% {
+    left: 189.5px;
+    top: 27px;
+    opacity: 0.2;
+  }
+
+  75% {
+    left: 284.25px;
+    top: 40.5px;
+    opacity: 0.3;
+  }
+
+  100% {
+    left: 379px;
+    top: 54px;
+    opacity: 1;
+  }
+}
+
+.chairman-example {
+  animation-name: chairman;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+/* Animation on ADEO-example */
+@keyframes ADEO {
+  0% {
+    left: 0px;
+    top: 292px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 133.5px;
+    top: 292px;
+    opacity: 0.25;
+  }
+
+  50% {
+    left: 267px;
+    top: 292px;
+    opacity: 0.5;
+  }
+
+  75% {
+    left: 400.5px;
+    top: 292px;
+    opacity: 0.75;
+  }
+
+  100% {
+    left: 534px;
+    top: 292px;
+    opacity: 1;
+  }
+}
+
+.ADEO-example {
+  animation-name: ADEO;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+/* Animation on Director-example */
+@keyframes Director {
+  0% {
+    left: -70px;
+    top: 828px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 94.75px;
+    top: 764px;
+    opacity: 0.25;
+  }
+
+  50% {
+    left: 189.5px;
+    top: 700px;
+    opacity: 0.5;
+  }
+
+  75% {
+    left: 284.25px;
+    top: 636px;
+    opacity: 0.75;
+  }
+
+  100% {
+    left: 379px;
+    top: 572px;
+    opacity: 1;
+  }
+}
+
+.animate-Director {
+  animation-name: Director;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+/* Animation on PMO-example */
+@keyframes PMO {
+  0% {
+    left: 550px;
+    top: 828px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 607.5px;
+    top: 774.25px;
+    opacity: 0.25;
+  }
+
+  50% {
+    left: 665px;
+    top: 720.5px;
+    opacity: 0.5;
+  }
+
+  75% {
+    left: 722.5px;
+    top: 666.75px;
+    opacity: 0.75;
+  }
+
+  100% {
+    left: 780px;
+    top: 613px;
+    opacity: 1;
+  }
+}
+
+.PMO-example {
+  animation-name: PMO;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+/* Animation on Global-example */
+@keyframes Global {
+
+  0% {
+    left: 2400px;
+    top: 0px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 2268.25px;
+    top: 13.5px;
+    opacity: 0.25;
+  }
+
+  50% {
+    left: 2137px;
+    top: 27px;
+    opacity: 0.5;
+  }
+
+  75% {
+    left: 2005px;
+    top: 40.5px;
+    opacity: 0.75;
+  }
+
+  100% {
+    left: 1873px;
+    top: 54px;
+    opacity: 1;
+  }
+}
+
+.Global-example {
+  animation-name: Global;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+
+/* Animation on Scenario-example */
+@keyframes Scenario {
+  0% {
+    left: 2400px;
+    top: 150px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 2268.25px;
+    top: 185.5px;
+    opacity: 0.25;
+  }
+
+  50% {
+    left: 2137px;
+    top: 221px;
+    opacity: 0.5;
+  }
+
+  75% {
+    left: 2005px;
+    top: 256.5px;
+    opacity: 0.75;
+  }
+
+  100% {
+    left: 1927px;
+    top: 292px;
+    opacity: 1;
+  }
+}
+
+.Scenario-example {
+  animation-name: Scenario;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+
+/* Animation on Healthcare-example */
+@keyframes Healthcare {
+
+  /* from  { left: 2071px; top: 645px; } 
+  to {left: 1871px; top: 645px;} */
+  0% {
+    left: 2400px;
+    top: 800px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 2268.25px;
+    top: 761.25px;
+    opacity: 0.25;
+  }
+
+  50% {
+    left: 2137px;
+    top: 722.5px;
+    opacity: 0.5;
+  }
+
+  75% {
+    left: 2005px;
+    top: 684px;
+    opacity: 0.75;
+  }
+
+  100% {
+    left: 1871px;
+    top: 645px;
+    opacity: 1;
+  }
+}
+
+.Healthcare-example {
+  animation-name: Healthcare;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+
+/* Animation on strategic-example */
+@keyframes strategic {
+  0% {
+    left: 2400px;
+    top: 600px;
+    opacity: 0;
+  }
+
+  25% {
+    left: 2268.25px;
+    top: 563px;
+    opacity: 0.25;
+  }
+
+  50% {
+    left: 2137px;
+    top: 526px;
+    opacity: 0.5;
+  }
+
+  75% {
+    left: 2005px;
+    top: 489px;
+    opacity: 0.75;
+  }
+
+  100% {
+    left: 1749px;
+    top: 452px;
+    opacity: 1;
+  }
+}
+
+.strategic-example {
+  animation-name: strategic;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-delay: -1s;
+  background: linear-gradient(97.87deg, rgba(2, 43, 61, 1) 16.1%, rgba(4, 32, 37, 1) 90.86%);
+  box-shadow: 0px 9px 34px 0px rgba(0, 0, 0, 0);
+  border-radius: 9999px;
+}
+
+@keyframes big {
+  0% {
+    width: 2000px;
+    height: 2000px;
+  }
+  50% {
+    width: 1750px;
+    height: 1750px;
+  }
+  100% {
+    width: 1585.9px;
+    height: 1587.44px;
+  }
+}
+
+.big-example {
+  animation-name: big;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out; 
+}
+
+
+@keyframes mid {
+  0% {
+    width: 1550px;
+    height: 1550px;
+  }
+  50% {
+    width: 1450px;
+    height: 1450px;
+  }
+  100% {
+    width: 1234.16px;
+    height: 1235.71px;
+  }
+}
+
+.mid-example {
+  animation-name: mid;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out; 
+}
+
+@keyframes mid {
+  0% {
+    width: 1550px;
+    height: 1550px;
+  }
+  50% {
+    width: 1450px;
+    height: 1450px;
+  }
+  100% {
+    width: 1234.16px;
+    height: 1235.71px;
+  }
+}
+
+.mid-example {
+  animation-name: mid;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out; 
 }

@@ -11,28 +11,28 @@ export default function MainSection() {
     return (
         <>
             <div className="bg-cover w-[2400px] h-[828px] relative flex justify-between items-center  text-white overflow-hidden">
-                <div className='absolute left-[1873px] top-[54px]  z-30'>
+                <div className='absolute left-[1873px] top-[54px]  z-30 Global-example '>
                     <Circle value="Global Benchmarks" />
                 </div>
-                <div className='absolute left-[1927px] top-[292px] z-30'>
+                <div className='absolute left-[1927px] top-[292px] z-30 Scenario-example'>
                     <Circle value="Scenario Modelling" />
                 </div>
-                <div className='absolute left-[1871px] top-[645px] opacity-100 z-30'>
+                <div className='absolute left-[1871px] top-[645px] opacity-100 z-30 Healthcare-example'>
                     <Circle value="Healthcare Metrics" />
                 </div>
-                <div className='absolute left-[389px] top-[54px] z-30'>
+                <div className='absolute left-[389px] top-[54px] z-30 chairman-example'>
                     <Circle value="Chairman" />
                 </div>
-                <div className='absolute left-[1749px] top-[452px] z-30'>
+                <div className='absolute left-[1749px] top-[452px] z-30 strategic-example'>
                     <Circle value='Strategic Coverage' />
                 </div>
-                <div className='absolute left-[534px] top-[292px] z-30'>
+                <div className='absolute left-[534px] top-[292px] z-30 ADEO-example'>
                     <Circle value="ADEO" />
                 </div>
-                <div className='absolute left-[379px] top-[572px] z-30'>
+                <div className='absolute left-[379px] top-[572px] z-30 animate-Director'>
                     <Circle value="Director General" />
                 </div>
-                <div className='absolute left-[780px] top-[613px] z-30'>
+                <div className='absolute left-[780px] top-[613px] z-30 PMO-example'>
                     <Circle value="PMO" />
                 </div>
                 <div className='text-[#FFFFFF] ml-[40px] text-[20px] leading-[24px] font-medium'>
@@ -44,11 +44,11 @@ export default function MainSection() {
                     </div>
                     <div className='ml-[20px] w-[266px]  text-[20px] leading-[30px]'>Analyse</div>
                 </div>
-                <div className='w-[1585.9px] h-[1587.44px] border border-[#273c3f] rounded-full flex justify-center items-center z-20 '>
+                <div className='w-[1585.9px] h-[1587.44px] border border-[#273c3f] rounded-full flex justify-center items-center z-20 big-example'>
 
-                    <div className='w-[1234.16px] h-[1235.71px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative '>
+                    <div className='w-[1234.16px] h-[1235.71px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative mid-example '>
 
-                        <div className='w-[910.35px] h-[910.35px] border border-[#273c3f]  rounded-full flex justify-center items-center  overflow-hidden'>
+                        <div className='w-[910.35px] h-[910.35px] border border-[#273c3f]  rounded-full flex justify-center items-center  overflow-hidden '>
                             <div className='flex flex-col items-center  w-[593px] h-[515px]  '>
                                 <div className='text-[72px] leading-[80px]'>Analytics Explorer</div>
                                 <div className='w-full h-full  flex justify-center items-center '>
