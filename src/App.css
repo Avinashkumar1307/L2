@@ -62,7 +62,7 @@
     opacity: 0;
   }
 
-  25% {
+  /* 25% {
     left: 94.75px;
     top: 13.5px;
     opacity: 0.1;
@@ -78,7 +78,7 @@
     left: 284.25px;
     top: 40.5px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 379px;
@@ -104,7 +104,7 @@
     top: 292px;
     opacity: 0;
   }
-
+/* 
   25% {
     left: 133.5px;
     top: 292px;
@@ -121,7 +121,7 @@
     left: 400.5px;
     top: 292px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 534px;
@@ -148,7 +148,7 @@
     opacity: 0;
   }
 
-  25% {
+  /* 25% {
     left: 94.75px;
     top: 764px;
     opacity: 0.1;
@@ -164,7 +164,7 @@
     left: 284.25px;
     top: 636px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 379px;
@@ -191,7 +191,7 @@
     opacity: 0;
   }
 
-  25% {
+  /* 25% {
     left: 607.5px;
     top: 774.25px;
     opacity: 0.1;
@@ -207,7 +207,7 @@
     left: 722.5px;
     top: 666.75px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 780px;
@@ -235,7 +235,7 @@
     opacity: 0;
   }
 
-  25% {
+  /* 25% {
     left: 2268.25px;
     top: 13.5px;
     opacity: 0.1;
@@ -251,7 +251,7 @@
     left: 2005px;
     top: 40.5px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 1873px;
@@ -279,7 +279,7 @@
     opacity: 0;
   }
 
-  25% {
+  /* 25% {
     left: 2268.25px;
     top: 185.5px;
     opacity: 0.1;
@@ -295,7 +295,7 @@
     left: 2005px;
     top: 256.5px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 1927px;
@@ -326,7 +326,7 @@
     opacity: 0;
   }
 
-  25% {
+  /* 25% {
     left: 2268.25px;
     top: 761.25px;
     opacity: 0.1;
@@ -342,7 +342,7 @@
     left: 2005px;
     top: 684px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 1871px;
@@ -370,7 +370,7 @@
     opacity: 0;
   }
 
-  25% {
+  /* 25% {
     left: 2268.25px;
     top: 563px;
     opacity: 0.1;
@@ -386,7 +386,7 @@
     left: 2005px;
     top: 489px;
     opacity: 0.3;
-  }
+  } */
 
   100% {
     left: 1749px;
@@ -422,7 +422,7 @@
 
 .big-example {
   animation-name: big;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; 
 }
 
@@ -444,7 +444,7 @@
 
 .mid-example {
   animation-name: mid;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; 
 }
 
@@ -453,10 +453,10 @@
     width: 1250px;
     height: 1250px;
   }
-  50% {
+  /* 50% {
     width: 1000px;
     height: 1000px;
-  }
+  } */
   100% {
     width: 910.35px;
     height: 910.35px;
@@ -465,6 +465,6 @@
 
 .low-example {
   animation-name: low;
-  animation-duration: 3s;
+  animation-duration: 2s;
   animation-timing-function: ease-in-out; 
 }
