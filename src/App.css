@@ -407,13 +407,10 @@
 
 @keyframes big {
   0% {
-    width: 2000px;
-    height: 2000px;
+    width: 2200px;
+    height: 2200px;
   }
-  50% {
-    width: 1750px;
-    height: 1750px;
-  }
+  
   100% {
     width: 1585.9px;
     height: 1587.44px;
@@ -432,10 +429,7 @@
     width: 1550px;
     height: 1550px;
   }
-  50% {
-    width: 1450px;
-    height: 1450px;
-  }
+  
   100% {
     width: 1234.16px;
     height: 1235.71px;
