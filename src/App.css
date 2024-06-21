@@ -448,23 +448,23 @@
   animation-timing-function: ease-in-out; 
 }
 
-@keyframes mid {
+@keyframes low {
   0% {
-    width: 1550px;
-    height: 1550px;
+    width: 1250px;
+    height: 1250px;
   }
   50% {
-    width: 1450px;
-    height: 1450px;
+    width: 1000px;
+    height: 1000px;
   }
   100% {
-    width: 1234.16px;
-    height: 1235.71px;
+    width: 910.35px;
+    height: 910.35px;
   }
 }
 
-.mid-example {
-  animation-name: mid;
+.low-example {
+  animation-name: low;
   animation-duration: 3s;
   animation-timing-function: ease-in-out; 
 }

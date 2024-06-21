@@ -48,7 +48,7 @@ export default function MainSection() {
 
                     <div className='w-[1234.16px] h-[1235.71px] border border-[#273c3f] rounded-full flex justify-center items-center overflow-hidden relative mid-example '>
 
-                        <div className='w-[910.35px] h-[910.35px] border border-[#273c3f]  rounded-full flex justify-center items-center  overflow-hidden '>
+                        <div className='w-[910.35px] h-[910.35px] border border-[#273c3f]  rounded-full flex justify-center items-center  overflow-hidden low-example'>
                             <div className='flex flex-col items-center  w-[593px] h-[515px]  '>
                                 <div className='text-[72px] leading-[80px]'>Analytics Explorer</div>
                                 <div className='w-full h-full  flex justify-center items-center '>
